@@ -1,0 +1,11 @@
+D:\Target Dec-2019\DAL\bin\Debug\netstandard2.0\DAL.deps.json
+D:\Target Dec-2019\DAL\bin\Debug\netstandard2.0\DAL.dll
+D:\Target Dec-2019\DAL\bin\Debug\netstandard2.0\DAL.pdb
+D:\Target Dec-2019\DAL\bin\Debug\netstandard2.0\RazorPages.Models.dll
+D:\Target Dec-2019\DAL\bin\Debug\netstandard2.0\RazorPages.Models.pdb
+D:\Target Dec-2019\DAL\obj\Debug\netstandard2.0\DAL.csprojAssemblyReference.cache
+D:\Target Dec-2019\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfoInputs.cache
+D:\Target Dec-2019\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfo.cs
+D:\Target Dec-2019\DAL\obj\Debug\netstandard2.0\DAL.csproj.CopyComplete
+D:\Target Dec-2019\DAL\obj\Debug\netstandard2.0\DAL.dll
+D:\Target Dec-2019\DAL\obj\Debug\netstandard2.0\DAL.pdb
