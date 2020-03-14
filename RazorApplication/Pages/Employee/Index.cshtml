@@ -1,4 +1,4 @@
-﻿@page
+﻿@page "{name:alpha}"
 @model RazorApplication.Pages.Employee.IndexModel
 @{
     ViewData["Title"] = "Employees";
@@ -14,7 +14,7 @@
 <div class="container-fluid">
     @foreach (var emp in Model.Employees)
     {
-        var imgSrc = @"images/" + (emp.Photopath.Trim().Length != 0 ? emp.Photopath : "noimage.png");
+        var imgSrc = @"/images/" + (emp.Photopath.Trim().Length != 0 ? emp.Photopath : "noimage.png");
     <div class="row" style="border:thin 1px black">
 
         <div class="col-lg-4">

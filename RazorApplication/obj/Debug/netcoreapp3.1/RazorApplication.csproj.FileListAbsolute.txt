@@ -111,3 +111,4 @@ D:\Target Dec-2019\StepByStepRazor\RazorApplication\bin\Debug\netcoreapp3.1\DAL.
 D:\Target Dec-2019\StepByStepRazor\RazorApplication\bin\Debug\netcoreapp3.1\RazorPages.Models.dll
 D:\Target Dec-2019\StepByStepRazor\RazorApplication\bin\Debug\netcoreapp3.1\DAL.pdb
 D:\Target Dec-2019\StepByStepRazor\RazorApplication\bin\Debug\netcoreapp3.1\RazorPages.Models.pdb
+D:\Target Dec-2019\StepByStepRazor\RazorApplication\obj\Debug\netcoreapp3.1\Razor\Pages\Employee.cshtml.g.cs
