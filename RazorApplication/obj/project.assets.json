@@ -6021,20 +6021,19 @@
     },
     "DAL/1.0.0": {
       "type": "project",
-      "path": "../../DAL/DAL.csproj",
-      "msbuildProject": "../../DAL/DAL.csproj"
+      "path": "../DAL/DAL.csproj",
+      "msbuildProject": "../DAL/DAL.csproj"
     },
     "RazorPages.Models/1.0.0": {
       "type": "project",
-      "path": "../../RazorPages.Models/RazorPages.Models.csproj",
-      "msbuildProject": "../../RazorPages.Models/RazorPages.Models.csproj"
+      "path": "../RazorPages.Models/RazorPages.Models.csproj",
+      "msbuildProject": "../RazorPages.Models/RazorPages.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "DAL >= 1.0.0",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.1",
-      "RazorPages.Models >= 1.0.0"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.1"
     ]
   },
   "packageFolders": {
@@ -6068,11 +6067,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Target Dec-2019\\DAL\\DAL.csproj": {
-              "projectPath": "D:\\Target Dec-2019\\DAL\\DAL.csproj"
-            },
-            "D:\\Target Dec-2019\\RazorPages.Models\\RazorPages.Models.csproj": {
-              "projectPath": "D:\\Target Dec-2019\\RazorPages.Models\\RazorPages.Models.csproj"
+            "D:\\Target Dec-2019\\StepByStepRazor\\DAL\\DAL.csproj": {
+              "projectPath": "D:\\Target Dec-2019\\StepByStepRazor\\DAL\\DAL.csproj"
             }
           }
         }

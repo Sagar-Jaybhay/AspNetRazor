@@ -6,3 +6,11 @@ D:\Target Dec-2019\RazorPages.Models\obj\Debug\netstandard2.0\RazorPages.Models.
 D:\Target Dec-2019\RazorPages.Models\obj\Debug\netstandard2.0\RazorPages.Models.AssemblyInfo.cs
 D:\Target Dec-2019\RazorPages.Models\obj\Debug\netstandard2.0\RazorPages.Models.dll
 D:\Target Dec-2019\RazorPages.Models\obj\Debug\netstandard2.0\RazorPages.Models.pdb
+D:\Target Dec-2019\StepByStepRazor\RazorPages.Models\bin\Debug\netstandard2.0\RazorPages.Models.deps.json
+D:\Target Dec-2019\StepByStepRazor\RazorPages.Models\bin\Debug\netstandard2.0\RazorPages.Models.dll
+D:\Target Dec-2019\StepByStepRazor\RazorPages.Models\bin\Debug\netstandard2.0\RazorPages.Models.pdb
+D:\Target Dec-2019\StepByStepRazor\RazorPages.Models\obj\Debug\netstandard2.0\RazorPages.Models.csprojAssemblyReference.cache
+D:\Target Dec-2019\StepByStepRazor\RazorPages.Models\obj\Debug\netstandard2.0\RazorPages.Models.AssemblyInfoInputs.cache
+D:\Target Dec-2019\StepByStepRazor\RazorPages.Models\obj\Debug\netstandard2.0\RazorPages.Models.AssemblyInfo.cs
+D:\Target Dec-2019\StepByStepRazor\RazorPages.Models\obj\Debug\netstandard2.0\RazorPages.Models.dll
+D:\Target Dec-2019\StepByStepRazor\RazorPages.Models\obj\Debug\netstandard2.0\RazorPages.Models.pdb
