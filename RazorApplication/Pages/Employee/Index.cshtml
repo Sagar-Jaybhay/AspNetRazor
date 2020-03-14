@@ -7,3 +7,53 @@
     <h1>Employees</h1>
 
 <h3>No of Employees : @Model.Employees.Count()</h3>
+
+
+<hr />
+<br />
+<div class="container-fluid">
+    @foreach (var emp in Model.Employees)
+    {
+        var imgSrc = @"images/" + (emp.Photopath.Trim().Length != 0 ? emp.Photopath : "noimage.png");
+    <div class="row" style="border:thin 1px black">
+
+        <div class="col-lg-4">
+            <img src="@imgSrc" alt="@emp.Name" style="height:150px;width:150px" />
+        </div>
+        <div class="col-lg-4">
+            <table style="border:thin;1px" class="table table-bordered table-active">
+                <tbody>
+                    <tr>
+                        <td>Name</td>
+                        <td>@emp.Name</td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>@emp.Email</td>
+                    </tr>
+                    <tr>
+                        <td>Department</td>
+                        <td>@emp.Dept</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-lg-2">
+           
+                <table class="table table-bordered">
+                    <tbody>
+                        <tr><td><a href="#" class="btn btn-info">Edit</a></td></tr>
+                        <tr><td><a href="#" class="btn btn-primary">View</a></td></tr>
+                        <tr><td><a href="#" class="btn btn-danger">Delete</a></td></tr>
+                    </tbody>
+
+                </table>           
+                               
+           
+        </div>
+    </div>
+    <hr />
+    <br />
+    }
+
+</div>

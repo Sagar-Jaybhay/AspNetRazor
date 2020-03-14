@@ -11,10 +11,12 @@ namespace DAL
         public DBRepository()
         {
             _empList = new List<Employee>() {
-                new Employee(){ Dept=Department.HR,Email="s@s.com",ID="A101",Name="sagar Jaybhay",Photopath=""},
-                new Employee(){Dept=Department.IT,Email="XYZ@XYZ.com",ID="A201",Name="XYZ",Photopath="" },
-                new Employee(){ Dept=Department.Testing,Email="ABC@ABC.com",ID="A301",Name="ABC",Photopath=""}
-                };
+                new Employee(){ Dept=Department.HR,Email="sagarjaybhay@gmail.com",ID="A101",Name="Sagar Jaybhay",Photopath=@"sagar jaybhay.png"},
+                new Employee(){Dept=Department.IT,Email="rani@hotmail.com",ID="A201",Name="Rani",Photopath=@"rani.jpg" },
+                new Employee(){ Dept=Department.Testing,Email="raja@gmail.com",ID="A301",Name="Raja",Photopath=@"ram.png"},
+                new Employee(){ Dept=Department.Testing,Email="raghu@gmail.com",ID="A401",Name="Ragu",Photopath=""}
+
+            };
             }
 
 
