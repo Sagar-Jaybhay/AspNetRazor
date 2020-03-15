@@ -32,6 +32,7 @@ namespace RazorApplication
                 option.LowercaseUrls = true;
                 option.LowercaseQueryStrings = true;
                 option.AppendTrailingSlash = true;
+               option.ConstraintMap.Add("custom", typeof(CustomConstraints.custom));
             });
         }
 

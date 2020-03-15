@@ -17,9 +17,13 @@ namespace RazorApplication.Pages.Employee
         }
 
         public IEmployeeRepos EmployeeRepos { get; }
-
+       
+        [BindProperty(SupportsGet = true)]
+        public string ID { get; set; }
+        
         public void OnGet(string id)
         {
+            
             employee = this.EmployeeRepos.GetEmployee(id);
 
         }

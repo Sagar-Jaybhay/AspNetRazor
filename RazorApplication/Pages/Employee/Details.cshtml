@@ -1,4 +1,4 @@
-﻿@page
+﻿@page "/employee/view/{id:custom}"
 @model RazorApplication.Pages.Employee.DetailsModel
 @{
     ViewData["Title"] = "Details";
@@ -8,7 +8,7 @@
 
 <table class="table table-bordered">
     <thead>
-        Details Of Employee
+        Details Of Employee @Model.ID
     </thead>
     <tbody>
         <tr><td>ID</td><td>Name</td><td>Email</td><td>Department</td></tr>
