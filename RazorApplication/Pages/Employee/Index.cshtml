@@ -1,4 +1,4 @@
-﻿@page "{name:alpha}"
+﻿@page 
 @model RazorApplication.Pages.Employee.IndexModel
 @{
     ViewData["Title"] = "Employees";
@@ -43,7 +43,7 @@
                 <table class="table table-bordered">
                     <tbody>
                         <tr><td><a href="#" class="btn btn-info">Edit</a></td></tr>
-                        <tr><td><a href="#" class="btn btn-primary">View</a></td></tr>
+                        <tr><td><a class="btn btn-primary" asp-page="/Employee/Details" asp-route-ID="@emp.ID">View</a></td></tr>
                         <tr><td><a href="#" class="btn btn-danger">Delete</a></td></tr>
                     </tbody>
 

@@ -1,0 +1,18 @@
+﻿@page
+@model RazorApplication.Pages.Employee.DetailsModel
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details Of Employee</h1>
+
+<table class="table table-bordered">
+    <thead>
+        Details Of Employee
+    </thead>
+    <tbody>
+        <tr><td>ID</td><td>Name</td><td>Email</td><td>Department</td></tr>
+        <tr><td>@Model.employee.ID</td><td>@Model.employee.Name</td><td>@Model.employee.Email</td><td>@Model.employee.Dept</td></tr>
+    </tbody>
+</table>
+<a href="/Employee/Index">Back To List</a>

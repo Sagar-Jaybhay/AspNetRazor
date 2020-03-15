@@ -1,6 +1,7 @@
 ﻿using RazorPages.Models;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace DAL
@@ -23,6 +24,11 @@ namespace DAL
         public IEnumerable<Employee> GetAllEmployees()
         {
             return this._empList;
+        }
+
+        public Employee GetEmployee(string Id)
+        {
+            return this._empList.Where(s => s.ID.ToLower() == Id).SingleOrDefault();
         }
     }
 }
